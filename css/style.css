@@ -21,6 +21,7 @@ ul#main-menu li span {
   font-size: smaller;
   font-weight: bold;
 }
+/* BIG IMAGES SECTION */
 .img-relative .img-relative-img1 {
   object-fit: cover;
   width: 100%;
@@ -58,8 +59,48 @@ ul#main-menu li span {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.7em;
 }
+/* TRENDING NEWS SECTION */
 .tp-img {
   border-radius: 50%;
   object-fit: cover;
-  width: 100px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#trendpost {
+  margin-top: 50px;
+}
+
+.horizontalbar {
+  width: 100%;
+  height: 2px;
+  margin: 10px;
+  background-color: black;
+  justify-content: baseline;
+}
+.smallh2 {
+  font-size: large;
+  font-weight: bold;
+}
+/* TENNIS SECTION */
+.par-lg {
+  font-size: 1.3em;
+  text-align: center;
+}
+.tennis-img img {
+  width: 100%;
+  height: 400px;
+  transition: transform 0.2s;
+}
+.tennis-img {
+  overflow: hidden;
+}
+.tennis-img img:hover {
+  transform: scale(1.2);
+}
+
+.allunderline:hover {
+  text-decoration: underline;
+  text-decoration-color: tomato;
 }
