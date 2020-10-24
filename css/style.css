@@ -1,0 +1,65 @@
+#logo-es {
+  justify-content: center;
+  align-items: center;
+  height: 8em;
+}
+.logo-img {
+  max-height: 70px;
+  object-fit: contain;
+  justify-content: center;
+}
+.icon-right {
+  text-align: right;
+}
+.drpdwn-menu a {
+  color: black;
+}
+ul#main-menu {
+  justify-content: space-between;
+}
+ul#main-menu li span {
+  font-size: smaller;
+  font-weight: bold;
+}
+.img-relative .img-relative-img1 {
+  object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+}
+.img-relative .img-relative-img2 {
+  object-fit: cover;
+  width: 100%;
+  max-height: 350px;
+}
+.img-relative {
+  position: relative;
+  padding-top: 5px;
+}
+.img-relative .contec-center {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+  overflow: hidden;
+}
+.img-relative .contec-center .content-1 {
+  font-weight: bold;
+  max-width: 80%;
+  margin: auto;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.7em;
+}
+.img-relative .contec-center .content-1:hover {
+  text-decoration: underline;
+}
+.img-relative .contec-center .content-2 {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.7em;
+}
+.tp-img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100px;
+}
